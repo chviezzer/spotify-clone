@@ -3,3 +3,124 @@
     margin: 0; 
     box-sizing: border-box;
 }
+/*https://www.scdn.co/build/css/spotify-3f3e7bc5ff.css*/
+
+
+.main-header{
+     background-color: black;
+     box-sizing: border-box;
+     padding: 15px;   
+}
+
+.section-premium{
+    background-color: rgb(80, 155, 245);
+    color: rgb(255, 255, 255); 
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 60px;
+} 
+.m-premium{
+    background-color: rgb(80, 155, 245);
+    color: rgb(255, 255, 255); 
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 20px;
+   
+}
+.f-premium{
+    background-color: rgb(80, 155, 245);
+    color: rgb(255, 255, 255); 
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 11px;
+
+}
+
+.section-trial{
+    background-color: rgb(167, 137, 190);
+    box-sizing: border-box;
+    padding: 43px; 
+    color: #FFF; 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 20px; 
+}
+.benefits{
+    box-sizing: border-box;
+    padding: 43px; 
+    color: black; 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 30px; 
+}
+.icons{
+    display: grid;
+    grid-gap: 10px;
+    margin: 50px;
+    grid-template-columns: 1fr .1fr 1fr 1fr;
+    grid-template-areas:
+          "descarga  anuncios escucha salta "
+          "descarga  anuncios escucha salta"
+          "descarga  anuncios escucha salta";
+             
+}
+.choose-premium{
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding: 43px; 
+    color: black; 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 42px;  
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    /*display: inline-block;*/
+    font-size: 20px; 
+}
+.main-footer{
+    background-color: black;
+    box-sizing: border-box;
+    color: white
+    
+
