@@ -1,44 +1,72 @@
 * {
     padding: 0;
     margin: 0; 
-    box-sizing: border-box;
+    
 }
-/*https://www.scdn.co/build/css/spotify-3f3e7bc5ff.css*/
-
 
 .main-header{
      background-color: black;
      box-sizing: border-box;
-     padding: 15px;   
+     padding: 15px;      
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas: "logo . . . menu";
+     
 }
 
+.spot-logo{
+    grid-area: logo;
+    text-align: left;
+    
+}
+
+.spot-menu{
+    grid-area: menu;
+    text-align: center;
+    padding-right: 0px; 
+    padding-left: 50px;
+   
+
+}
+
+/*.main-header:hover{
+    width: 100px;
+     height: 100px;
+     background: rgb(151, 148, 148);
+     transition: width 2s;
+     width: 300px;
+
+}*/
+    
 .section-premium{
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
     box-sizing: border-box;
     padding: 42px;  
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
     font-size: 60px;
+    
+
 } 
 .m-premium{
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
     box-sizing: border-box;
     padding: 42px;  
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
     font-size: 20px;
+    display: grid;
+    
    
 }
 .f-premium{
@@ -52,7 +80,6 @@
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
     font-size: 11px;
 
 }
@@ -81,13 +108,13 @@
     text-align: center;
     box-sizing: border-box;
     padding: 42px;  
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
+    display: inline-block;
     font-size: 30px; 
 }
 .icons{
@@ -98,29 +125,128 @@
     grid-template-areas:
           "descarga  anuncios escucha salta "
           "descarga  anuncios escucha salta"
-          "descarga  anuncios escucha salta";
-             
+          "descarga  anuncios escucha salta"; 
 }
-.choose-premium{
+
+.i-font{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50%;
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+    font-weight: 90;
+    max-width: 100%;
+}
+
+.choose-premium {
     background-color: rgb(248, 248, 248);
     box-sizing: border-box;
     padding: 43px; 
     color: black; 
     text-align: center;
-    box-sizing: border-box;
-    padding: 42px;  
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
     font-size: 20px; 
+    
 }
+
+.grid { 
+    background-color: rgb(248, 248, 248);
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "ind duo fam stud"
+                                                  
+}
+
+.grid.ind-container{
+    grid-area: ind;
+    background-color: rgb(248, 248, 248);
+}
+
+.grid.duo-container{
+    grid-area: duo;
+    background-color: rgb(248, 248, 248);
+}
+
+.grid.fam-container{
+    grid-area: fam;
+    background-color: rgb(248, 248, 248);
+}
+
+.grid.stud-container{
+    grid-area: stud;
+    background-color: rgb(248, 248, 248);
+}
+
+
+.kkdtek {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.euBIMF {
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    max-width: 400px;
+    width: auto;
+    padding: 32px 20px 16px;
+    position: relative;
+    list-style: none;
+    box-shadow: rgb(255, 255, 255) 0px -8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    font-family: Helvetica, Arial, sans-serif;
+     
+}
+
+.jqrPXB {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.ivUHTG {
+    line-height: 22px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.hWuJne {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    width: auto;
+    padding: 4px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgb(255, 255, 255) 0px -8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin-bottom: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .main-footer{
     background-color: black;
     box-sizing: border-box;
-    color: white
-    
-
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+} 
