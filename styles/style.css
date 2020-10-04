@@ -6,30 +6,74 @@
 .main-header{
      background-color: black;
      box-sizing: border-box;
-     padding: 15px;      
+     padding: 17px;
+     padding-right: 15px; 
+     padding-left: 30px;     
      display: grid;
-     grid-template-columns: 0.2fr 6fr 1fr 1fr 0.2fr 1fr 1fr;
-     grid-template-areas: "logo . . . . . menu";
-     
+     grid-template-columns:0.5fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.3fr 0.5fr 1fr;
+     grid-template-areas:"... logo . . premium ayuda descarga icon reg log";
 }
 .spot-logo{
     grid-area: logo;
     text-align: left;
     
 }
-.spot-menu{
-    grid-area: auto;
+.spot-premium {
+    grid-area: premium;
     text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 0px; 
     padding-left: 50px;
 }
-.sp-font{
+.spot-ayuda {
+    grid-area: ayuda;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px; 
+    padding-left: 10px;
+}
+.spot-descarga{
+    grid-area: descarga;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px; 
+    padding-left: 8px;    
+}
+.spot-icon {
+    grid-area: icon;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px; 
+    padding-left: 10px;    
+}
+.spot-reg {
+    grid-area: reg;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px; 
+    padding-left: 0px;    
+}
+.spot-log {
+    grid-area: log;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px; 
+    padding-left: 0px;    
+}
+.sp-font {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    font-size: 12px;
+    font-size: 14px;
+    text-decoration: none;
 }
 /*.main-header:hover{
     width: 100px;
@@ -44,22 +88,23 @@
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
     box-sizing: border-box;
-    padding: 42px;  
-    font-family: Helvetica, Arial, sans-serif;
+    padding: 42px 85px;
+    padding-bottom: 20px;  
+    font-family: Hevetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    font-size: 60px;
-    
-
+    font-size: 60px;   
 } 
 .m-premium{
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
     box-sizing: border-box;
-    padding: 42px;  
+    padding: 42px 85px;    
+    padding-top: 5px;
+    padding-bottom: 15px;  
     font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
@@ -68,31 +113,29 @@
     width: auto;
     font-size: 20px;
     display: grid;
-    
-   
 }
 .f-premium{
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
     box-sizing: border-box;
-    padding: 42px;  
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 42px 85px;
+    padding-top: 10px;   
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
     font-weight: 900;
     max-width: 100%;
     width: auto;
     font-size: 11px;
-
 }
 .section-trial{
     background-color: rgb(167, 137, 190);
     box-sizing: border-box;
-    padding: 43px; 
+    padding: 43px;
+    padding-left: 85px;
     color: #FFF; 
     text-align: center;
     box-sizing: border-box;
-    padding: 42px;  
     font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.25px;
     line-height: 1.2;
@@ -105,9 +148,7 @@
 .w-button {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
-    border: 0px;
     border-radius: 500px;
-    display: inline-block;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -115,13 +156,10 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    touch-action: manipulation;
-    transition-duration: 33ms;
-    transition-property: background-color, border-color, color, box-shadow, filter, transform;
-    user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
-    padding: 17px 48px;
+    padding: 17px 48px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: center;
     background-color: rgb(250, 252, 251);
     color: rgb(10, 10, 10);
@@ -222,10 +260,9 @@
 }
 .euBIMF {
     background-color: rgb(255, 255, 255);
-    max-width: 400px;
     width: auto;
+    height: 150px;
     padding: 16px 20px 16px;
-    position: relative;
     list-style: none;
     box-shadow: rgb(255, 255, 255) 0px -8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
     font-family: Helvetica, Arial, sans-serif;
@@ -243,8 +280,7 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 .hWuJne {
-    background-color: rgb(255, 255, 255);
-    max-width: 400px;
+    background-color: rgb(255, 255, 255);    
     width: auto;
     padding: 4px 20px 20px;
     border-radius: 0px 0px 10px 10px;
@@ -258,30 +294,23 @@
     font-family: Helvetica, Arial, sans-serif;
     border: 0px;
     border-radius: 5px;
-    display: inline-block;
     font-size: 12px;
     font-weight: 900;
     line-height: 1;
     text-align: center;
     text-decoration: none;
-    touch-action: manipulation;
-    transition-duration: 33ms;
-    transition-property: background-color, border-color, color, box-shadow, filter, transform;
     user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
     padding: 10px 10px;
     position: relative;
     background-color: rgb(3, 108, 245);
     color: rgb(255, 255, 255);
-    
 }
 .g-button {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     border: 0px;
     border-radius: 500px;
-    display: inline-block;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -289,12 +318,8 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    touch-action: manipulation;
-    transition-duration: 33ms;
-    transition-property: background-color, border-color, color, box-shadow, filter, transform;
     user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
     padding: 17px 48px;
     position: relative;
     background-color: rgb(29, 185, 84);
@@ -308,9 +333,9 @@
     font-size: small;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 0.2fr 0.2fr 0.9fr 1fr 1fr 0.8fr;
+    grid-template-columns: 0.2fr 0.2fr 0.9fr 1fr 1.5fr 0.5fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "... ... ... ... ... flag"
+    grid-template-areas: "... ... ... ... txt flag"
                          "legal cooky anun ... ... copy";   
     padding-right: 40px;
     padding-left: 80px;    
@@ -340,7 +365,13 @@
 .p-flag {
     display: flex;
     width: 45px;
-    align-items: center;
+    align-items: right;
+}
+.f-txt {
+    grid-area: txt;
+    text-align: right;    
+    padding-top: 15px;
+
 }
 .f-copy {
     grid-area: copy;
