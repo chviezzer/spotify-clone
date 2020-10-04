@@ -261,12 +261,21 @@
 .euBIMF {
     background-color: rgb(255, 255, 255);
     width: auto;
-    height: 150px;
+    height: 70px;
     padding: 16px 20px 16px;
     list-style: none;
     box-shadow: rgb(255, 255, 255) 0px -8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
     font-family: Helvetica, Arial, sans-serif;
-     
+}
+.p-space{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 50px;
+    padding: 16px 20px 16px;
+    list-style: none;
+    box-shadow: rgb(255, 255, 255) 0px -8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
 }
 .jqrPXB {
     display: flex;
@@ -311,6 +320,7 @@
     font-family: Helvetica, Arial, sans-serif;
     border: 0px;
     border-radius: 500px;
+    display: inline-block;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
