@@ -74,16 +74,7 @@
     width: auto;
     font-size: 14px;
     text-decoration: none;
-}
-/*.main-header:hover{
-    width: 100px;
-     height: 100px;
-     background: rgb(151, 148, 148);
-     transition: width 2s;
-     width: 300px;
-
-}*/
-    
+}  
 .section-premium{
     background-color: rgb(80, 155, 245);
     color: rgb(255, 255, 255); 
@@ -142,7 +133,6 @@
     font-weight: 900;
     max-width: 100%;
     width: auto;
-    /*display: inline-block;*/
     font-size: 30px; 
 }
 .w-button {
@@ -239,7 +229,7 @@
     grid-area: stud;
     background-color: rgb(248, 248, 248);
 }
-.kkdtek {
+.p-top {
     background-color: rgb(255, 255, 255);
     margin-right: auto;
     margin-left: auto;
@@ -258,7 +248,7 @@
     box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
     font-family: Helvetica, Arial, sans-serif;
 }
-.euBIMF {
+.p-list {
     background-color: rgb(255, 255, 255);
     width: auto;
     height: 70px;
@@ -277,18 +267,11 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: small;
 }
-.jqrPXB {
+.p-chkList {
     display: flex;
     margin-bottom: 5px;
 }
-.ivUHTG {
-    line-height: 22px;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-.hWuJne {
+.p-bottom {
     background-color: rgb(255, 255, 255);    
     width: auto;
     padding: 4px 20px 20px;
